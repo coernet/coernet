@@ -140,9 +140,9 @@ params:
 
 
   author:
-    name: "Hugo Narrow"
-    title: "A Clean and Minimal Hugo Theme"
-    description: "Focused on content and user experience."
+    name: "Jago Koding"
+    title: "Belajar budidaya kode"
+    description: "Tutorial yang mudah dipahami. Mostly pakai Linux."
     avatar: "/images/hero.png"
     social:
       - name: "GitHub"

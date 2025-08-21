@@ -21,6 +21,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="id-ID"
+                href="http://localhost:1313/id/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ja-JP"
                 href="http://localhost:1313/ja/categories/"
                 />
@@ -41,6 +46,11 @@
                 rel="alternate"
                 hreflang="fr-FR"
                 href="http://localhost:1313/fr/categories/github/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id-ID"
+                href="http://localhost:1313/id/categories/github/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -67,6 +77,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="id-ID"
+                href="http://localhost:1313/id/posts/uji-peringatan/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ja-JP"
                 href="http://localhost:1313/ja/posts/test-alert/"
                 />
@@ -87,6 +102,11 @@
                 rel="alternate"
                 hreflang="fr-FR"
                 href="http://localhost:1313/fr/tags/markdown/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id-ID"
+                href="http://localhost:1313/id/tags/markdown/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -113,6 +133,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="id-ID"
+                href="http://localhost:1313/id/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ja-JP"
                 href="http://localhost:1313/ja/posts/"
                 />
@@ -133,6 +158,11 @@
                 rel="alternate"
                 hreflang="fr-FR"
                 href="http://localhost:1313/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id-ID"
+                href="http://localhost:1313/id/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -281,6 +311,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="id-ID"
+                href="http://localhost:1313/id/posts/code-highlighting-test/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ja-JP"
                 href="http://localhost:1313/ja/posts/code-highlighting-test/"
                 />
@@ -339,6 +374,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="id-ID"
+                href="http://localhost:1313/id/about/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ja-JP"
                 href="http://localhost:1313/ja/about/"
                 />
@@ -362,6 +402,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="id-ID"
+                href="http://localhost:1313/id/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ja-JP"
                 href="http://localhost:1313/ja/"
                 />
@@ -381,6 +426,11 @@
                 rel="alternate"
                 hreflang="fr-FR"
                 href="http://localhost:1313/fr/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id-ID"
+                href="http://localhost:1313/id/archives/"
                 />
     <xhtml:link
                 rel="alternate"

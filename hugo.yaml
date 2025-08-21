@@ -2,7 +2,7 @@ baseURL: https://coernet.github.io/
 languageCode: en-US
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
-title: Coernet
+title: Jago Koding
 theme: "hugo-narrow"
 
 
@@ -23,30 +23,34 @@ languages:
     languageCode: en-US
     languageName: "English"
     weight: 1
-  zh-cn:
-    languageCode: zh-CN
-    languageName: "简体中文"
+  id:
+    languageCode: id-ID
+    languageName: "Indonesia"
     weight: 2
-  ja:
-    languageCode: ja-JP
-    languageName: "日本語"
-    weight: 3
-  fr:
-    languageCode: fr-FR
-    languageName: "Français"
-    weight: 4
+  #zh-cn:
+  #  languageCode: zh-CN
+  #  languageName: "简体中文"
+  #  weight: 3
+  #ja:
+  #  languageCode: ja-JP
+  #  languageName: "日本語"
+  #  weight: 4
+  #fr:
+  #  languageCode: fr-FR
+  #  languageName: "Français"
+  #  weight: 5
   # de:
   #   languageCode: de-DE
   #   languageName: "Deutsch"
-  #   weight: 5
+  #   weight: 6
   # es:
   #   languageCode: es-ES
   #   languageName: "Español"
-  #   weight: 6
+  #   weight: 7
   # ru:
   #   languageCode: ru-RU
   #   languageName: "Русский"
-  #   weight: 7
+  #   weight: 8
 
 # 分类法配置
 taxonomies:
@@ -122,14 +126,14 @@ params:
   # Basic site info with SEO
   description: "A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design."
   keywords: ["Hugo", "Blog", "Theme", "Technology", "Programming"]
-  defaultAuthor: "Hugo Narrow"
+  defaultAuthor: "Jago Koding"
   language: "en-US"
-  shortName: "Hugo Narrow"  # PWA
+  shortName: "Jago Koding"  # PWA
   images:
   - "/images/og-default.avif"
 
   logo:
-    image: "/images/logo.svg"  # Logo path rel to static folder, leave empty use site title and primary color
+    image: "/images/OctocatCode.svg"  # Logo path rel to static folder, leave empty use site title and primary color
     link: "/"                  # click to home page
   favicon:
     svg: "/favicon.svg"        # SVG format favicon (recommended)
@@ -139,7 +143,7 @@ params:
     name: "Hugo Narrow"
     title: "A Clean and Minimal Hugo Theme"
     description: "Focused on content and user experience."
-    avatar: "/images/avatar.svg"
+    avatar: "/images/hero.png"
     social:
       - name: "GitHub"
         url: "https://github.com/username"
@@ -206,7 +210,7 @@ params:
   
     license:
       show: true
-      author: "Hugo Narrow"
+      author: "Jago Koding"
       name: "CC BY-NC-SA 4.0"
       description: "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Please attribute the source, use non-commercially, and maintain the same license."
       url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
@@ -298,11 +302,11 @@ params:
         display: true
       
   mermaid:
-    enabled: false
+    enabled: true
 
   # GLightbox
   lightbox:
-    enabled: false
+    enabled: true
     loop: true
     width: 80vw
     height: 80vh
@@ -314,7 +318,7 @@ params:
 
   # Justified Gallery
   justified_gallery:
-    enabled: false
+    enabled: true
     rowHeight: 300
     gutter: 30
     lastRow: center

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Github on Coernet</title>
+    <title>Github on Jago Koding</title>
     <link>http://localhost:1313/fr/categories/github/</link>
-    <description>Recent content in Github on Coernet</description>
+    <description>Recent content in Github on Jago Koding</description>
     <generator>Hugo</generator>
     <language>fr-FR</language>
     <lastBuildDate>Sun, 01 Jun 2025 10:00:00 +0800</lastBuildDate>

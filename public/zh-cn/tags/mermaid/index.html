@@ -9,11 +9,11 @@
   content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<title>Mermaid | Coernet</title>
+<title>Mermaid | Jago Koding</title>
 
 <meta name="description" content="A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design." />
 <meta name="keywords" content="Hugo, Blog, Theme, Technology, Programming" />
-<meta name="author" content="Hugo Narrow" />
+<meta name="author" content="Jago Koding" />
 <meta name="language" content="en-US" />
 
 <meta name="robots" content="index, follow" />
@@ -27,7 +27,7 @@
 
 <link rel="manifest" href="/site.webmanifest" />
 <meta property="og:url" content="http://localhost:1313/zh-cn/tags/mermaid/">
-  <meta property="og:site_name" content="Coernet">
+  <meta property="og:site_name" content="Jago Koding">
   <meta property="og:title" content="Mermaid">
   <meta property="og:description" content="A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design.">
   <meta property="og:locale" content="zh_CN">
@@ -52,7 +52,7 @@
   <link
     rel="alternate"
     type="application/rss+xml"
-    title="Coernet"
+    title="Jago Koding"
     href="http://localhost:1313/zh-cn/tags/mermaid/index.xml" />
 
 
@@ -169,8 +169,8 @@
 <script>
 
   window.HUGO_GALLERY_CONFIG = {
-    justified_gallery:  false ,
-    lightbox:  false ,
+    justified_gallery:  true ,
+    lightbox:  true ,
     justified: "{\"calculateitemsheight\":false,\"gutter\":30,\"lastrow\":\"center\",\"maxrowscount\":999999,\"resizedebounce\":100,\"rowheight\":300,\"rowheighttolerance\":0.25,\"transitionduration\":\"0.3s\"}",
     lightbox_options: "{\"descposition\":\"bottom\",\"draggable\":true,\"height\":\"80vh\",\"loop\":true,\"preload\":true,\"touchnavigation\":true,\"width\":\"80vw\",\"zoomable\":true}"
   };
@@ -198,7 +198,11 @@
 
 
 
+  <link rel="stylesheet" href="/css/fjGallery.css">
 
+
+
+  <link rel="stylesheet" href="/css/glightbox.min.css">
 
 
 
@@ -222,6 +226,11 @@
 
 
 
+  <script src="/js/fjGallery.min.js"></script>
+
+
+
+  <script src="/js/glightbox.min.js"></script>
 
 
 
@@ -232,6 +241,7 @@
 
 
 
+        <script src="/js/gallery.js" defer></script>
 
 
 
@@ -387,10 +397,10 @@
           <a
             href="/zh-cn/"
             class="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full transition-transform duration-200 hover:scale-105"
-            aria-label="Coernet">
+            aria-label="Jago Koding">
             <img
-              src="/images/logo.svg"
-              alt="Coernet"
+              src="/images/OctocatCode.svg"
+              alt="Jago Koding"
               class="h-full w-full object-cover" />
           </a>
         
@@ -548,7 +558,7 @@
     class="dropdown-menu border-border bg-popover/95 absolute top-12 right-0 z-[60] hidden w-40 rounded-lg border p-1 shadow-lg backdrop-blur-sm transition-all duration-200 ease-out"
     data-dropdown-type="language"
     role="menu"
-    aria-labelledby="language-toggle"><a href="/en/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem"><span class="font-medium">English</span></a><a href="/zh-cn/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem" aria-current="true"><span class="font-medium">简体中文</span></a><a href="/ja/tags/mermaid/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem"><span class="font-medium">日本語</span></a><a href="/fr/tags/mermaid/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem"><span class="font-medium">Français</span></a></div>
+    aria-labelledby="language-toggle"><a href="/en/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem"><span class="font-medium">English</span></a><a href="/zh-cn/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem" aria-current="true"><span class="font-medium">简体中文</span></a><a href="/ja/tags/mermaid/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem"><span class="font-medium">日本語</span></a><a href="/fr/tags/mermaid/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem"><span class="font-medium">Français</span></a><a href="/id/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem"><span class="font-medium">Indonesia</span></a></div>
 </div>
 
         
@@ -830,7 +840,7 @@
     class="dropdown-menu border-border bg-popover/95 absolute top-12 right-0 z-[60] hidden w-40 rounded-lg border p-1 shadow-lg backdrop-blur-sm transition-all duration-200 ease-out"
     data-dropdown-type="language"
     role="menu"
-    aria-labelledby="language-toggle"><a href="/en/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem"><span class="font-medium">English</span></a><a href="/zh-cn/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem" aria-current="true"><span class="font-medium">简体中文</span></a><a href="/ja/tags/mermaid/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem"><span class="font-medium">日本語</span></a><a href="/fr/tags/mermaid/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem"><span class="font-medium">Français</span></a></div>
+    aria-labelledby="language-toggle"><a href="/en/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem"><span class="font-medium">English</span></a><a href="/zh-cn/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem" aria-current="true"><span class="font-medium">简体中文</span></a><a href="/ja/tags/mermaid/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem"><span class="font-medium">日本語</span></a><a href="/fr/tags/mermaid/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem"><span class="font-medium">Français</span></a><a href="/id/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem"><span class="font-medium">Indonesia</span></a></div>
 </div>
 
         
@@ -1338,7 +1348,7 @@ Mermaid 图表测试 流程图 graph TDA[开始] --&gt; B{是否为用户？}B
       
       <div class="text-muted-foreground text-sm text-center md:text-left">
         <p class="mb-2">
-          &copy; 2025 Coernet.
+          &copy; 2025 Jago Koding.
           保留所有权利.
         </p>
         <p class="flex flex-wrap items-center justify-center gap-1 md:justify-start">

@@ -1,0 +1,239 @@
+# File Bahasa Indonesia
+# Navigasi
+nav:
+  menu: "Menu"
+  home: "Beranda"
+  posts: "Artikel"
+  tags: "Tag"
+  categories: "Kategori"
+  about: "Tentang"
+  contact: "Kontak"
+  archive: "Arsip"
+  archives: "Arsip"
+  search: "Cari"
+  breadcrumb: "Navigasi breadcrumb"
+  pagination: "Navigasi halaman"
+  prev: "Sebelumnya"
+  next: "Berikutnya"
+  prev_page: "Halaman sebelumnya"
+  next_page: "Halaman berikutnya"
+  page_info: "Halaman {{ .current }} dari {{ .total }}"
+  total_pages: "Total {{ .count }} halaman"
+  back_home: "Kembali ke Beranda"
+  post_navigation: "Navigasi artikel"
+
+# Tema
+theme:
+  toggle: "Ganti tema"
+  light: "Terang"
+  dark: "Gelap"
+  system: "Sistem"
+  auto: "Otomatis"
+
+# Footer
+footer:
+  copyright: "Hak Cipta"
+  all_rights_reserved: "Hak cipta dilindungi"
+  about_us: "Tentang Kami"
+  contact_us: "Hubungi Kami"
+  privacy_policy: "Kebijakan Privasi"
+  terms_of_service: "Ketentuan Layanan"
+  rss_feed: "Umpan RSS"
+
+# Beranda
+home:
+  recent_posts: "Artikel Terbaru"
+  showing_posts: "Menampilkan"
+  posts: "artikel"
+  view_all_posts: "Lihat Semua Artikel"
+
+# Artikel
+post:
+  read_more: "Baca selengkapnya"
+  published_on: "Diterbitkan pada"
+  updated_on: "Diperbarui pada"
+  tags: "Tag"
+  categories: "Kategori"
+  share: "Bagikan"
+  previous: "Sebelumnya"
+  next: "Berikutnya"
+  related_posts: "Artikel Terkait"
+  reading_time: "Waktu baca"
+  no_posts: "Belum ada artikel"
+  no_posts_desc: "Belum ada artikel yang diterbitkan. Silakan periksa kembali nanti."
+  list_desc: "Berikut semua artikel yang diterbitkan, diurutkan dari terbaru."
+  total_posts: "Total {{ .count }} artikel"
+  author: "Penulis"
+  words: "kata"
+  words_count: "Jumlah kata"
+  no_previous: "Tidak ada artikel sebelumnya"
+  no_next: "Tidak ada artikel berikutnya"
+  no_previous_desc: "Ini adalah artikel paling awal"
+  no_next_desc: "Ini adalah artikel terbaru"
+  view_more_posts: "Lihat lebih banyak artikel"
+  reading_time_unit: "menit"
+
+# Paginasi
+pagination:
+  previous: "Sebelumnya"
+  next: "Berikutnya"
+  page: "Halaman"
+  of: "dari"
+  pages: "halaman"
+
+# Pencarian
+search:
+  placeholder: "Cari artikel..."
+  clear: "Hapus"
+  close: "Tutup"
+  loading: "Sedang mencari..."
+  empty_title: "Mulai mencari"
+  empty_description: "Masukkan kata kunci untuk mencari artikel"
+  no_results_title: "Tidak ada hasil"
+  no_results_description: "Coba gunakan kata kunci lain"
+  results_count: "Ditemukan %d hasil"
+  match_score: "Relevansi"
+  hint_navigate: "Navigasi"
+  hint_select: "Pilih"
+  hint_close: "Tutup"
+  hint_shortcut: "Pintasan"
+
+# Formulir
+form:
+  name: "Nama"
+  email: "Email"
+  message: "Pesan"
+  subject: "Subjek"
+  send: "Kirim"
+  required: "Wajib"
+
+# Waktu
+time:
+  minute: "menit"
+  minutes: "menit"
+  hour: "jam"
+  hours: "jam"
+  day: "hari"
+  days: "hari"
+  week: "minggu"
+  weeks: "minggu"
+  month: "bulan"
+  months: "bulan"
+  year: "tahun"
+  years: "tahun"
+  ago: "yang lalu"
+  date_format: "02 Januari 2006"
+  date_format_short: "02 Jan"
+  month_format: "Januari 2006"
+
+# Arsip
+archives:
+  desc: "Jelajahi semua artikel berdasarkan urutan waktu dan temukan yang menarik."
+  posts_count: "artikel"
+  no_posts: "Belum ada artikel"
+  no_posts_desc: "Belum ada artikel yang diterbitkan. Silakan periksa kembali nanti."
+  total_posts: "Total {{ .count }} artikel"
+  timeline: "Tampilan Linimasa"
+
+# Taksonomi
+taxonomy:
+  total_tags: "Total {{ .count }} tag"
+  total_categories: "Total {{ .count }} kategori"
+  total_terms: "Total {{ .count }} istilah"
+  tags_desc: "Jelajahi semua tag untuk menemukan konten menarik."
+  categories_desc: "Jelajahi semua kategori untuk menemukan konten menarik."
+  desc: "Jelajahi semua kategori untuk menemukan konten menarik."
+  no_terms: "Belum ada kategori"
+  no_terms_desc: "Belum ada kategori yang dibuat. Silakan periksa kembali nanti."
+
+# Halaman Taksonomi
+term:
+  tag_desc: "Semua artikel dengan tag \"{{ .tag }}\""
+  category_desc: "Semua artikel dalam kategori \"{{ .category }}\""
+  desc: "Semua artikel dalam \"{{ .term }}\""
+  total_posts: "Total {{ .count }} artikel"
+  date_range: "Diurutkan berdasarkan tanggal"
+  no_posts: "Belum ada artikel"
+  no_posts_tag: "Belum ada artikel dengan tag ini."
+  no_posts_category: "Belum ada artikel dalam kategori ini."
+  no_posts_desc: "Belum ada artikel dalam kategori ini."
+
+# Umum
+common:
+  loading: "Memuat..."
+  error: "Kesalahan"
+  success: "Berhasil"
+  close: "Tutup"
+  open: "Buka"
+  save: "Simpan"
+  cancel: "Batal"
+  confirm: "Konfirmasi"
+  delete: "Hapus"
+  edit: "Edit"
+  view: "Lihat"
+  back: "Kembali"
+  more: "Selengkapnya"
+  language: "Bahasa"
+  site_logo: "Logo Situs"
+
+# Bahasa
+language:
+  toggle: "Ganti bahasa"
+
+# Lisensi
+license:
+  title: "Pernyataan Hak Cipta"
+  author: "Penulis"
+  link: "Tautan"
+  type: "Lisensi"
+  cc_by_nc_sa_desc: "Karya ini dilisensikan di bawah Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International. Harap cantumkan sumber, gunakan non-komersial, dan gunakan lisensi yang sama."
+  cc_by_desc: "Karya ini dilisensikan di bawah Creative Commons Attribution 4.0 International. Harap cantumkan sumber."
+
+# Komentar
+comments:
+  title: "Komentar"
+  not_configured: "Sistem komentar belum dikonfigurasi"
+  not_configured_desc: "Silakan aktifkan sistem komentar di konfigurasi situs"
+  giscus_not_configured: "Sistem komentar Giscus belum dikonfigurasi"
+  disqus_not_configured: "Sistem komentar Disqus belum dikonfigurasi"
+  disqus_noscript: "Aktifkan JavaScript untuk melihat komentar."
+  utterances_not_configured: "Sistem komentar Utterances belum dikonfigurasi"
+  waline_not_configured: "Sistem komentar Waline belum dikonfigurasi"
+
+# Dock Bawah
+dock:
+  aria_label: "Toolbar aksi cepat"
+  back: "Kembali"
+  toc: "Daftar Isi"
+  search: "Cari"
+  comments: "Komentar"
+  back_to_top: "Kembali ke Atas"
+  top: "Atas"
+
+# Peringatan
+alert:
+  note: "Catatan"
+  tip: "Tips"
+  important: "Penting"
+  warning: "Peringatan"
+  caution: "Perhatian"
+
+# TOC
+toc:
+  close: "Tutup"
+  title: "Daftar Isi"
+  navigation: "Navigasi Daftar Isi"
+  empty: "Tidak ada judul pada artikel ini"
+  tip: "Klik untuk lompat ke bagian"
+
+# Blok Kode
+code:
+  copy: "Salin"
+  copied: "Tersalin"
+  selected: "Terseleksi"
+  collapse: "Tutup"
+  expand: "Buka"
+  clickToExpand: "Klik untuk membuka dan melihat lebih banyak"
+
+# Tautan
+links: "Tautan"

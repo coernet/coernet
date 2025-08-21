@@ -2,7 +2,7 @@ baseURL: https://hugo-narrow.vercel.app/
 languageCode: en-US
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
-title: Hugo Narrow
+title: Coernet
 theme: "hugo-narrow"
 
 

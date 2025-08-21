@@ -133,10 +133,10 @@ params:
   - "/images/og-default.avif"
 
   logo:
-    image: "/images/OctocatCode.svg"  # Logo path rel to static folder, leave empty use site title and primary color
+    image: "/images/hero.svg"  # Logo path rel to static folder, leave empty use site title and primary color
     link: "/"                  # click to home page
   favicon:
-    svg: "/favicon.svg"        # SVG format favicon (recommended)
+    svg: "/images/hero.svg"        # SVG format favicon (recommended)
 
 
   author:

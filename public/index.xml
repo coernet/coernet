@@ -6,8 +6,15 @@
     <description>Recent content in Beranda on Jago Ngoding</description>
     <generator>Hugo</generator>
     <language>id-ID</language>
-    <lastBuildDate>Fri, 22 Aug 2025 21:35:21 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 22 Aug 2025 22:42:58 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tutorial Git #1: Cara Install Git dan Konfigurasi Awal yang Harus Dilakukan</title>
+      <link>http://localhost:1313/posts/install-git/</link>
+      <pubDate>Fri, 22 Aug 2025 22:42:58 +0700</pubDate>
+      <guid>http://localhost:1313/posts/install-git/</guid>
+      <description>&lt;p&gt;Kita sudah mengenal Git pada &lt;a href=&#34;http://localhost:1313/posts/git-untuk-pemula/&#34;&gt;tulisan sebelumnya&lt;/a&gt;. Selanjutnya Kita akan melakukan instalasi dan persiapan untuk mulai belajar Git.&lt;/p&gt;&#xA;&lt;p&gt;Tulisan ini terbagi menjadi tiga bagian:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Cara Instalasi Git di Linux.&lt;/li&gt;&#xA;&lt;li&gt;Cara Instalasi Git di Windows.&lt;/li&gt;&#xA;&lt;li&gt;Konfigurasi Awal yang Harus dilakukan Setelah Menginstal Git.&#xA;Mari kita mulai…&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Apa itu Git dan Kenapa Penting bagi Programmer?</title>
       <link>http://localhost:1313/posts/git-untuk-pemula/</link>

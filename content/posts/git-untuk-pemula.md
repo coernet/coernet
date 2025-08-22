@@ -127,7 +127,7 @@ Jadi, apakah kamu sudah mengenal git?
 
 Bagus, selanjutnya silakan ikuti tutorial git berikut ini.
 
-- [Tutorial Git #01: Cara Install Git dan Konfigurasi Awal yang harus dilakukan](#)
+- [Tutorial Git #01: Cara Install Git dan Konfigurasi Awal yang harus dilakukan](git-install)
 - [Tutorial Git #02: Membuat Repositori Baru dalam Proyek](#)
 - [Tutorial Git #03: Membuat Revisi dan Menyimpannya dengan Git Commit](#)
 - [Tutorial Git #04: Melihat Catatan Log Revisi Git](#)

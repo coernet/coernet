@@ -16,10 +16,10 @@
     }
   ],
   "lang": "en-US",
-  "name": "Jago Koding",
+  "name": "Jago Ngoding",
   "orientation": "portrait-primary",
   "scope": "/",
-  "short_name": "Jago Koding",
+  "short_name": "Jago Ngoding",
   "start_url": "/",
   "theme_color": "#09090b"
 }

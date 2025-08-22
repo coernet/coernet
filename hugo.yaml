@@ -1,8 +1,8 @@
 baseURL: https://coernet.github.io/
 languageCode: en-US
-defaultContentLanguage: en
+defaultContentLanguage: id
 defaultContentLanguageInSubdir: false
-title: Jago Koding
+title: Jago Ngoding
 theme: "hugo-narrow"
 
 
@@ -126,9 +126,9 @@ params:
   # Basic site info with SEO
   description: "A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design."
   keywords: ["Hugo", "Blog", "Theme", "Technology", "Programming"]
-  defaultAuthor: "Jago Koding"
+  defaultAuthor: "Jago Ngoding"
   language: "en-US"
-  shortName: "Jago Koding"  # PWA
+  shortName: "Jago Ngoding"  # PWA
   images:
   - "/images/og-default.avif"
 
@@ -140,9 +140,9 @@ params:
 
 
   author:
-    name: "Jago Koding"
+    name: "Jago Ngoding"
     title: "Belajar budidaya kode"
-    description: "Tutorial yang mudah dipahami. Mostly pakai Linux."
+    description: "Tutorial yang mudah dipahami"
     avatar: "/images/hero.png"
     social:
       - name: "GitHub"
@@ -164,7 +164,7 @@ params:
   stickyHeader: true  # Set to true to enable sticky navigation bar
 
   # default color scheme
-  colorScheme: "default"
+  colorScheme: "Claude"
   themes:
     default:
       name: "Default"
@@ -210,7 +210,7 @@ params:
   
     license:
       show: true
-      author: "Jago Koding"
+      author: "Jago Ngoding"
       name: "CC BY-NC-SA 4.0"
       description: "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Please attribute the source, use non-commercially, and maintain the same license."
       url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
